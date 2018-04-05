@@ -30,7 +30,7 @@ if (!fs.existsSync(config.staticContent)) {
 }
 
 //Definimos los directorios estaticos
-app.use(express.static(config.staticContent));
+app.use(express.static(__dirname + config.staticContent));
 
 //Cors
 app.use(cors());
