@@ -1,0 +1,10 @@
+{
+	"staticContent": "public/",
+	"maxJsonFileAccept": "10mb",
+	"maxSizeFile": "83886080",
+	"jwtCrypt": "secret",
+	"directories": [
+		"despensa",
+		"ayg"
+	]
+}
